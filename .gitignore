@@ -1,3 +1,5 @@
+compile_commands.json
+#
 # Conan specific
 **/test_package/build/
 **/test_package/build-*/

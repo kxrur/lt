@@ -13,4 +13,6 @@ all:
 	cmake --build --preset conan-release
 
 run:
+	cmake --preset conan-release
+	cmake --build --preset conan-release
 	cd build/Release && ./leetcode_practice ${RUN_ARGS}
