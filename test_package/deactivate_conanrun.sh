@@ -1,1 +1,0 @@
-. "/home/kxr/Desktop/git/lt/test_package/deactivate_conanrunenv-release-x86_64.sh"
