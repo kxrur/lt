@@ -1,0 +1,1 @@
+. "/home/kxr/Desktop/git/lt/test_package/conanbuildenv-release-x86_64.sh"
