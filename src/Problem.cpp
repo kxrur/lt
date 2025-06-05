@@ -1,10 +1,9 @@
 #include "Problem.hpp"
-#include <iostream>
+#include <typeinfo>
 
 Problem::Problem(int argc, char *argv[]) {
   for (int i = 0; i < argc; i++) {
     args.push_back(argv[i]);
   }
+  log("Solving problem: %s", typeid(*this).name());
 }
-
-void Problem::Log(std::string message) { std::cout << message << std::endl; }

@@ -1,7 +1,7 @@
 #pragma once
 #include "../Problem.hpp"
 
-class One : public Problem {
+class Two : public Problem {
 public:
   using Problem::Problem;
 

@@ -1,10 +1,10 @@
-#include "one.hpp"
+#include "two.hpp"
 
 // https://leetcode.com/problems/two-sum/description/
 
-void One::attempt() {
+void Two::attempt() {
   log("help");
   log(args.at(0).c_str());
 }
 
-void One::solution() {}
+void Two::solution() {}
